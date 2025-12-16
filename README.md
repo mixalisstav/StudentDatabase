@@ -6,7 +6,7 @@
 
 A desktop GUI application designed to handle student record management efficiently. Built using Python and PyQt6, this application performs full CRUD (Create, Read, Update, Delete) operations on a local SQLite database, offering a clean and user-friendly interface for educational administrators.
 
-![Application Screenshot](path/to/your/screenshot.png)
+![Application Screenshot](pngs/Running App.png)
 ## 🚀 Features
 
 * **Dashboard View:** Displays a comprehensive table of all students, including their ID, Name, Course, and Mobile number.
