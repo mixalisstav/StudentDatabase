@@ -21,13 +21,13 @@ class MainWindow(QMainWindow):
         
         
         
-        add_edit_action = QAction(QIcon("/pngs/search.png"),"Search",self)
+        add_edit_action = QAction(QIcon("pngs/search.png"),"Search",self)
         edit_menu_item.addAction(add_edit_action)
         add_edit_action.triggered.connect(self.search_student)
         add_edit_action.setMenuRole(QAction.MenuRole.NoRole)
         
         
-        add_student_action = QAction(QIcon("/pngs/add.png"),"Add Student",self)
+        add_student_action = QAction(QIcon("pngs/add.png"),"Add Student",self)
         add_student_action.triggered.connect(self.insert)
         file_menu_item.addAction(add_student_action)
         
